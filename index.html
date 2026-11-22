@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Дошка завдань | TaskBoard</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -50,6 +51,11 @@
         <button class="btn" type="submit">Додати задачу</button>
         <p id="form-message" class="form-message" role="alert"></p>
       </form>
+    </section>
+    <section class="card" aria-labelledby="tasks-heading">
+      <h2 id="tasks-heading">Мої задачі</h2>
+      <p class="counter" id="counter" role="status">Задач немає</p>
+      <ul class="task-list" id="task-list"></ul>
     </section>
   </main>
   <footer class="site-footer">
