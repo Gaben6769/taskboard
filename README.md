@@ -23,14 +23,19 @@
 - [x] Адаптивна форма
 - [x] Інтерактивність та локальне збереження
 - [ ] Flask і база даних
-- [ ] GitHub Pages
+- [x] GitHub Pages
 
 ## Запуск
 
-1. Відкрий папку проєкту у VS Code.
-2. Запусти `index.html` через Live Server.
+1. Склонуй репозиторій командою `git clone https://github.com/Gaben6769/taskboard.git`.
+2. Відкрий папку проєкту у VS Code.
+3. Запусти `index.html` через Live Server.
 
 Для швидкого перегляду можна відкрити `index.html` у браузері після розпакування.
+
+## Демо
+
+[Відкрити TaskBoard на GitHub Pages](https://gaben6769.github.io/taskboard/)
 
 ## Скріншот
 
